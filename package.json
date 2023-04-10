@@ -1,0 +1,30 @@
+{
+  "name": "web503",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently vite \"json-server --watch db.json\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "json-server": "^0.17.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "mongoose-paginate-v2": "^1.7.1",
+    "nodemon": "^2.0.21",
+    "vite": "^4.1.4"
+  },
+  "devDependencies": {
+    "vite-plugin-node": "^3.0.2"
+  }
+}
